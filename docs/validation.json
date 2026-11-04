@@ -1,0 +1,29 @@
+{
+  "snapshot_date": "2026-11-04",
+  "python_version": "3.12.13",
+  "test_command": "python -m unittest discover -s tests -v",
+  "tests_run": 6,
+  "exit_code": 0,
+  "test_output": "test_directional_blocks_exclude_within_chain (test_metrics.BlockTests.test_directional_blocks_exclude_within_chain) ... ok\ntest_monomer_has_no_interface_score (test_metrics.BlockTests.test_monomer_has_no_interface_score) ... ok\ntest_shapes_scale_and_nan_rejected (test_metrics.BlockTests.test_shapes_scale_and_nan_rejected) ... ok\ntest_binder_translation_changes_pose_but_not_shape (test_pose_metrics.PoseMetricsTests.test_binder_translation_changes_pose_but_not_shape) ... ok\ntest_missing_selected_coordinates_are_rejected (test_pose_metrics.PoseMetricsTests.test_missing_selected_coordinates_are_rejected) ... ok\ntest_whole_complex_rigid_motion_is_removed (test_pose_metrics.PoseMetricsTests.test_whole_complex_rigid_motion_is_removed) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n",
+  "demo": {
+    "data_origin": "synthetic coordinate and confidence fixtures; not a protein candidate",
+    "geometry": {
+      "target_fit_CA_count": 4,
+      "binder_pose_CA_count": 3,
+      "target_fit_CA_RMSD_A": 3.925231146709438e-16,
+      "binder_CA_RMSD_after_target_fit_A": 2.9999999999999982,
+      "binder_CA_shape_RMSD_after_self_fit_A": 2.972137055765787e-16,
+      "global_complex_CA_RMSD_A": 1.4830231933915579,
+      "regional_CA_RMSD_after_target_fit_A": {},
+      "meaning": "Pose, fold shape, target deformation and remote motion separately. No biological classification."
+    },
+    "confidence": {
+      "binder_plddt_0_1": 0.8,
+      "target_rows_binder_columns_pae_mean_angstrom": 3.0,
+      "binder_rows_target_columns_pae_mean_angstrom": 15.0,
+      "symmetric_cross_chain_pae_mean_angstrom": 9.0
+    },
+    "interpretation": "Binder shape is unchanged but binder pose moves 3 angstroms relative to the target. No biological conclusion."
+  },
+  "data_scope": "Synthetic fixtures only; no experimental validation."
+}

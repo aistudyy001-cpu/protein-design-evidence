@@ -1,0 +1,31 @@
+{
+  "source_project": "ProteinDesignPipeline",
+  "public_snapshot_date": "2026-11-04",
+  "scope": "Selected standalone audit modules; no model adapters, candidate sequences, private datasets or model weights.",
+  "files": [
+    {
+      "source_relative_path": "pdp/common.py",
+      "public_relative_path": "pdp/common.py",
+      "sha256": "3229dd9020cdf483c4d261bd1c0526de57c834e3be14c694d584aa40ca31c46d",
+      "transfer": "byte-identical selected first-party module or test"
+    },
+    {
+      "source_relative_path": "pdp/metrics.py",
+      "public_relative_path": "pdp/metrics.py",
+      "sha256": "b26d6d0fc89e6df29941214a93301b11fcbde6a3647198b4e875c5d1d960991f",
+      "transfer": "byte-identical selected first-party module or test"
+    },
+    {
+      "source_relative_path": "pdp/interface_robustness.py",
+      "public_relative_path": "pdp/interface_robustness.py",
+      "sha256": "3d475731ecafe308f702cbacbf271ce008432beac2aae45b06fb43883af4beea",
+      "transfer": "byte-identical selected first-party module or test"
+    },
+    {
+      "source_relative_path": "tests/test_metrics.py",
+      "public_relative_path": "tests/test_metrics.py",
+      "sha256": "36797ad337bd8f564be26d5a27226a34a1a39804d66a3ef31d4f44fb929596c5",
+      "transfer": "byte-identical selected first-party module or test"
+    }
+  ]
+}

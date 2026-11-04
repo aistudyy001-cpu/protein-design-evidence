@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.pem
+*.key
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+private/
+runs/
+data/
